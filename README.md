@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-APIPosture is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://apiposture.com/
+APIPosture provides an automated platform to scan APIs for misconfigurations and compliance gaps. It offers actionable remediation steps, generating compliance scores for standards like SOC2 and ISO within minutes. The service includes features such as shadow API detection, audit-ready reporting, and integrates with developer workflows to ensure continuous security posture.
+
+**Areas:** Company · API Security · Compliance · Automation · DevOps · Monitoring
+
+## APIPosture on APIs.io
+
+Everything profiled for APIPosture is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apiposture/](https://apis.io/providers/apiposture/)** — or go straight to one of the APIs or properties below.
+
+### APIs (15)
+
+- [ApiPosture API](https://apis.io/apis/apiposture/apiposture-api-2/) — API for ApiPosture platform providing scanning and compliance features.
+- [APIPosture Account API](https://apis.io/apis/apiposture/apiposture-account-api/) — The Account API from APIPosture — 1 operation(s) for account.
+- [APIPosture Admin API](https://apis.io/apis/apiposture/apiposture-admin-api/) — The Admin API from APIPosture — 1 operation(s) for admin.
+- [APIPosture Apiposture API](https://apis.io/apis/apiposture/apiposture-apiposture-api/) — The Apiposture API from APIPosture — 1 operation(s) for apiposture.
+- [APIPosture Blagoculjak API](https://apis.io/apis/apiposture/apiposture-blagoculjak-api/) — The Blagoculjak API from APIPosture — 1 operation(s) for blagoculjak.
+- [APIPosture Cart API](https://apis.io/apis/apiposture/apiposture-cart-api/) — The Cart API from APIPosture — 1 operation(s) for cart.
+- [APIPosture Finalize Order API](https://apis.io/apis/apiposture/apiposture-finalize-order-api/) — The Finalize Order API from APIPosture — 1 operation(s) for finalize order.
+- [APIPosture Install API](https://apis.io/apis/apiposture/apiposture-install-api/) — The Install API from APIPosture — 1 operation(s) for install.
+- [APIPosture Installer API](https://apis.io/apis/apiposture/apiposture-installer-api/) — The Installer API from APIPosture — 1 operation(s) for installer.
+- [APIPosture Merchant API](https://apis.io/apis/apiposture/apiposture-merchant-api/) — The Merchant API from APIPosture — 1 operation(s) for merchant.
+- [APIPosture Payment Intent API](https://apis.io/apis/apiposture/apiposture-payment-intent-api/) — The Payment Intent API from APIPosture — 1 operation(s) for payment intent.
+- [APIPosture Resources API](https://apis.io/apis/apiposture/apiposture-resources-api/) — The Resources API from APIPosture — 1 operation(s) for resources.
+- [APIPosture Status API](https://apis.io/apis/apiposture/apiposture-status-api/) — The Status API from APIPosture — 1 operation(s) for status.
+- [APIPosture Transactions API](https://apis.io/apis/apiposture/apiposture-transactions-api/) — The Transactions API from APIPosture — 1 operation(s) for transactions.
+- [APIPosture Users API](https://apis.io/apis/apiposture/apiposture-users-api/) — The Users API from APIPosture — 3 operation(s) for users.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetApiTransactionsTransactionidResponse](https://apis.io/schemas/apiposture/apiposture-get-api-transactions-transactionid-response/)
+- [PutApiV2AccountRequest](https://apis.io/schemas/apiposture/apiposture-put-api-v2-account-request/)
+- [PutApiV2AccountResponse](https://apis.io/schemas/apiposture/apiposture-put-api-v2-account-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apiposture Context](https://apis.io/jsonld/apiposture/apiposture-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [APIPosture API Rules](https://apis.io/rules/apiposture/apiposture-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apiposture Domain Security](https://apis.io/security/apiposture/apiposture-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Apiposture Plans Pricing](https://apis.io/plans/apiposture/apiposture-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apiposture.com/)
+- [Documentation](https://www.apiposture.com/documentation)
+- [Pricing](https://www.apiposture.com/pricing/)
+- [Terms of service](https://www.apiposture.com/terms-of-service/)
+
+## API Evangelist rating
+
+**Kin Score 27.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 20.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 52.6 |
+
+**Agent readiness 25.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apiposture/](https://apis.io/providers/apiposture/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for APIPosture: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apiposture/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
